@@ -26,6 +26,16 @@
     </Preference>
 
     <Preference
+        android:key="statusbar_ui_stuff"
+        android:title="@string/cat_general_ui">
+
+   <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+         android:key="show_fourg_icon"
+         android:title="@string/show_fourg_icon_title"
+         android:summary="@string/show_fourg_icon_summary"
+         android:defaultValue="false"/>
+
+    <Preference
             android:key="battery_settings"
             android:title="@string/battery_style_category_title"
             android:fragment="com.nitrogen.settings.fragments.StatusBarBattery" />

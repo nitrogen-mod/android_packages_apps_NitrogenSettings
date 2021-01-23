@@ -245,4 +245,11 @@
     <string name="status_bar_battery_style_circle">Circle</string>
     <string name="status_bar_battery_style_dotted_circle">Dotted сircle</string>
     <string name="status_bar_battery_style_text">Text</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+
+    <!-- Preference Categories -->
+    <string name="cat_general_ui">UI tweaks</string>
 </resources>
