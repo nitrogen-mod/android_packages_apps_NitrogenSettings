@@ -48,12 +48,6 @@
          android:summary="@string/use_old_mobiletype_summary"
          android:defaultValue="false" />
 
-
-    <Preference
-            android:key="battery_settings"
-            android:title="@string/battery_style_category_title"
-            android:fragment="com.nitrogen.settings.fragments.StatusBarBattery" />
-
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
         android:key="network_traffic_state"
         android:title="@string/network_traffic_state_title"
